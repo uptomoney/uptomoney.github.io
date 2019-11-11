@@ -18,12 +18,14 @@ body {
 }
 
 .logo-item {
-	display: inline-block;
+	display: flex;
+	align-items: center;
 	font-size: 200%;
 	margin: 1%;
-	padding: 0.8%;
+	padding: 1%;
 	border: 2px #000 solid;
 	text-align: center;
+	font-weight: bold;
 }
 
 .container {
@@ -64,4 +66,17 @@ body {
 
 .right {
 	background: #ff817a;
+}
+
+.footer {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 10vh;
+}
+
+.footer-item {
+	font-size: 15px;
+	display: flex;
+	align-items: center;
 }
