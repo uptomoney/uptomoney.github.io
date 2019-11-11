@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.section__1 {
+	height: 100vh;
+}
+
+.logo {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 10%;
+	text-align: center;
+	background: #fffff0;
+}
+
+.logo-item {
+	display: inline-block;
+	font-size: 200%;
+	margin: 1%;
+	padding: 0.8%;
+	border: 2px #000 solid;
+	text-align: center;
+}
+
+.container {
+	padding-top: -50px;
+	display: flex;
+	height: 90%;
+}
+
+.block {
+	color: #fff;
+	display: flex;
+	margin: 5%;
+	padding: 30% 5%;
+	border: 5px #fff solid;
+	font-size: 20px;
+	justify-content: center;
+}
+
+.block:hover {
+	color: #000;
+	border: 5px #000 solid;
+}
+
+.left, .right {
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	width: 50%;
+}
+
+.left:hover, .right:hover {
+	background: #fff;
+}
+
+.left {
+	background: #a6f1c3;
+}
+
+.right {
+	background: #ff817a;
+}
