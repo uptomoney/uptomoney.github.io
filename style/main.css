@@ -19,12 +19,12 @@ body {
 
 .logo-item {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	font-size: 200%;
 	margin: 1%;
 	padding: 1%;
 	border: 2px #000 solid;
-	text-align: center;
 	font-weight: bold;
 }
 
